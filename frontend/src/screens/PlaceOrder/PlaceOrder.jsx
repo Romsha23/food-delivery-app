@@ -5,7 +5,7 @@ import axios from "axios"
 import {useNavigate} from "react-router-dom"
 
 const PlaceOrder = () => {
-  const {getTotalCartAmount,food_list,cartItems,url,token} = useContext(StoreContext)
+  const {getTotalCartAmount,food_list,cartItems,url,token,setCartItems} = useContext(StoreContext)
   const navigate = useNavigate()
 
   const [data,setData] = useState({
@@ -41,12 +41,14 @@ const PlaceOrder = () => {
       amount : getTotalCartAmount() + 20
     }
     try{
-      let response = await axios.post(url+"/api/order/place",orderData,{headers:{token}})
-        const {session_url} = response.data
-        window.location.replace(session_url)
+      const response = await axios.post(url+"/api/order/place",orderData,{headers:{token}})
+      if (!response.data.success) throw new Error(response.data.message || "Could not place order")
+      setCartItems({})
+      navigate("/verify?success=true&orderId="+response.data.orderId)
     }
     catch(err){
-      console.log(err)
+      console.error(err)
+      window.alert(err.response?.data?.message || err.message || 'Could not place order')
     }
   }
 
@@ -100,7 +102,7 @@ const PlaceOrder = () => {
           </div>
 
           <button type='submit'>
-            Proceed to Payment
+            Place order (cash on delivery)
           </button>
         </div>
       </div>
