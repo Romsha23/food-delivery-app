@@ -1,0 +1,290 @@
+[
+  {
+    "_id": "1",
+    "name": "Greek salad",
+    "image": "1743851223485food_1.png",
+    "price": 12,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Salad",
+    "seeded": true
+  },
+  {
+    "_id": "2",
+    "name": "Veg salad",
+    "image": "1743851244504food_2.png",
+    "price": 18,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Salad",
+    "seeded": true
+  },
+  {
+    "_id": "3",
+    "name": "Clover Salad",
+    "image": "1743851398989food_3.png",
+    "price": 16,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Salad",
+    "seeded": true
+  },
+  {
+    "_id": "4",
+    "name": "Chicken Salad",
+    "image": "1743852936252food_4.png",
+    "price": 24,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Salad",
+    "seeded": true
+  },
+  {
+    "_id": "5",
+    "name": "Lasagna Rolls",
+    "image": "1743853017372food_5.png",
+    "price": 14,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Rolls",
+    "seeded": true
+  },
+  {
+    "_id": "6",
+    "name": "Peri Peri Rolls",
+    "image": "1743853659378food_6.png",
+    "price": 12,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Rolls",
+    "seeded": true
+  },
+  {
+    "_id": "7",
+    "name": "Chicken Rolls",
+    "image": "1743853683040food_7.png",
+    "price": 20,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Rolls",
+    "seeded": true
+  },
+  {
+    "_id": "8",
+    "name": "Veg Rolls",
+    "image": "1743853719216food_8.png",
+    "price": 15,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Rolls",
+    "seeded": true
+  },
+  {
+    "_id": "9",
+    "name": "Ripple Ice Cream",
+    "image": "1743853750787food_9.png",
+    "price": 14,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Deserts",
+    "seeded": true
+  },
+  {
+    "_id": "10",
+    "name": "Fruit Ice Cream",
+    "image": "1743853782923food_10.png",
+    "price": 22,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Deserts",
+    "seeded": true
+  },
+  {
+    "_id": "11",
+    "name": "Jar Ice Cream",
+    "image": "1743853808211food_11.png",
+    "price": 10,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Deserts",
+    "seeded": true
+  },
+  {
+    "_id": "12",
+    "name": "Vanilla Ice Cream",
+    "image": "1743853825728food_12.png",
+    "price": 12,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Deserts",
+    "seeded": true
+  },
+  {
+    "_id": "13",
+    "name": "Chicken Sandwich",
+    "image": "1743853872323food_13.png",
+    "price": 12,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Sandwich",
+    "seeded": true
+  },
+  {
+    "_id": "14",
+    "name": "Vegan Sandwich",
+    "image": "1743853892779food_14.png",
+    "price": 18,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Sandwich",
+    "seeded": true
+  },
+  {
+    "_id": "15",
+    "name": "Grilled Sandwich",
+    "image": "1743853922680food_15.png",
+    "price": 16,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Sandwich",
+    "seeded": true
+  },
+  {
+    "_id": "16",
+    "name": "Bread Sandwich",
+    "image": "1743853938758food_16.png",
+    "price": 24,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Sandwich",
+    "seeded": true
+  },
+  {
+    "_id": "17",
+    "name": "Cup Cake",
+    "image": "1743853970402food_17.png",
+    "price": 14,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Cake",
+    "seeded": true
+  },
+  {
+    "_id": "18",
+    "name": "Vegan Cake",
+    "image": "1743853984649food_18.png",
+    "price": 12,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Cake",
+    "seeded": true
+  },
+  {
+    "_id": "19",
+    "name": "Butterscotch Cake",
+    "image": "1743854003917food_19.png",
+    "price": 20,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Cake",
+    "seeded": true
+  },
+  {
+    "_id": "20",
+    "name": "Sliced Cake",
+    "image": "1743854079464food_20.png",
+    "price": 15,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Cake",
+    "seeded": true
+  },
+  {
+    "_id": "21",
+    "name": "Garlic Mushroom ",
+    "image": "1743854137750food_21.png",
+    "price": 14,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Pure Veg",
+    "seeded": true
+  },
+  {
+    "_id": "22",
+    "name": "Fried Cauliflower",
+    "image": "1743854162255food_22.png",
+    "price": 22,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Pure Veg",
+    "seeded": true
+  },
+  {
+    "_id": "23",
+    "name": "Mix Veg Pulao",
+    "image": "1743854198038food_23.png",
+    "price": 10,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Pure Veg",
+    "seeded": true
+  },
+  {
+    "_id": "24",
+    "name": "Rice Zucchini",
+    "image": "1743854222965food_24.png",
+    "price": 12,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Pure Veg",
+    "seeded": true
+  },
+  {
+    "_id": "25",
+    "name": "Cheese Pasta",
+    "image": "1743854256503food_25.png",
+    "price": 12,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Pasta",
+    "seeded": true
+  },
+  {
+    "_id": "26",
+    "name": "Tomato Pasta",
+    "image": "1743854279379food_26.png",
+    "price": 18,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Pasta",
+    "seeded": true
+  },
+  {
+    "_id": "27",
+    "name": "Creamy Pasta",
+    "image": "1743854336254food_27.png",
+    "price": 16,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Pasta",
+    "seeded": true
+  },
+  {
+    "_id": "28",
+    "name": "Chicken Pasta",
+    "image": "1743854361754food_28.png",
+    "price": 24,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Pasta",
+    "seeded": true
+  },
+  {
+    "_id": "29",
+    "name": "Buttter Noodles",
+    "image": "1743854389343food_29.png",
+    "price": 14,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Noodles",
+    "seeded": true
+  },
+  {
+    "_id": "30",
+    "name": "Veg Noodles",
+    "image": "1743854414704food_30.png",
+    "price": 12,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Noodles",
+    "seeded": true
+  },
+  {
+    "_id": "31",
+    "name": "Somen Noodles",
+    "image": "1743854442148food_31.png",
+    "price": 20,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Noodles",
+    "seeded": true
+  },
+  {
+    "_id": "32",
+    "name": "Cooked Noodles",
+    "image": "1743854461489food_32.png",
+    "price": 15,
+    "description": "Food provides essential nutrients for overall health and well-being",
+    "category": "Noodles",
+    "seeded": true
+  }
+]
