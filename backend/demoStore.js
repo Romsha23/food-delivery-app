@@ -26,7 +26,7 @@ function modelFor(collection) {
       const record = { ...clone(data), _id: String(data._id || randomUUID()) };
       if (collection === 'users') record.cartData ||= {};
       if (collection === 'orders') {
-        record.status ||= 'Food processing';
+        record.status ||= 'Food Processing';
         record.date ||= new Date().toISOString();
         record.payment ||= 'Cash on delivery';
       }
