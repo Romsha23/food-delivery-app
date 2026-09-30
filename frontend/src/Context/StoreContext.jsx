@@ -9,7 +9,7 @@ const StoreContextProvider=(props)=>{
 
     const [token, setToken] = useState("");
 
-    const url = "https://foodprep.onrender.com"
+    const url = import.meta.env.VITE_API_URL || "http://localhost:4000"
     // const url = "http://localhost:4000"
 
     const [cartItems, setCartItems] = useState({});
@@ -33,15 +33,20 @@ const StoreContextProvider=(props)=>{
         for(let item in cartItems){
             if(cartItems[item]>0){
                 let itemInfo = food_list.find(food=>food._id===item);
-                total+=itemInfo.price*cartItems[item];
+                if (itemInfo) total+=itemInfo.price*cartItems[item];
             }
         }
         return total;
     }
     const [food_list,setFoodList] = useState([]);
     const fetchFoodList = async () => {
-        const response = await axios.get(url+"/api/food/list")
-        setFoodList(response.data.data)
+        try {
+            const response = await axios.get(url+"/api/food/list")
+            setFoodList(response.data.data || [])
+        } catch (error) {
+            console.error("Unable to load menu", error)
+            setFoodList([])
+        }
     }
     const loadCartData = async (token) => {
         const response = await axios.post(url+"/api/cart/get",{},{headers:{token}})
