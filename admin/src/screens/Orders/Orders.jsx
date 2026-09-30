@@ -4,12 +4,12 @@ import axios from "axios"
 import {toast} from 'react-toastify'
 import {assets} from '../../assets/assets'
 
-const Orders = ({url}) => {
+const Orders = ({url,adminKey}) => {
 
   const [orders,setOrders] = useState([]);
 
   const fetchAllOrders = async()=>{
-    const response = await axios.get(url+"/api/order/list")
+    const response = await axios.get(url+"/api/order/list",{headers:{'x-admin-key':adminKey}})
     if(response.data.success){
       setOrders(response.data.data)
       console.log(response.data.data)
@@ -25,7 +25,7 @@ const Orders = ({url}) => {
     const response = await axios.post(url+"/api/order/status",{
       orderId,
       status:e.target.value
-    })
+    },{headers:{'x-admin-key':adminKey}})
     if(response.data.success){
       await fetchAllOrders()
     }
