@@ -39,7 +39,7 @@ const registerUser = async (req, res) => {
             return res.status(400).json({success:false,message:"Password should be at least 6 characters long"})
 
         const hashedPassword = await bcrypt.hash(password, 10)
-        const user = userModel.create({name,email,password:hashedPassword})
+        const user = await userModel.create({name,email,password:hashedPassword})
         const token = createToken(user._id)
         res.status(201).json({success:true,token})
     } catch (error) {
